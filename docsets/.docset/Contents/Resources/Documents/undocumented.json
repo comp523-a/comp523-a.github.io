@@ -57,37 +57,128 @@
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/CommandView.swift",
+      "file": "/Users/osx/Documents/Code Quest/Code Quest/CommandHandler.swift",
+      "line": 12,
+      "symbol": "CommandHandler",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/Code Quest/Code Quest/CommandHandler.swift",
+      "line": 16,
+      "symbol": "CommandHandler.playerLoc",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/Code Quest/Code Quest/CommandHandler.swift",
+      "line": 17,
+      "symbol": "CommandHandler.goalLoc",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/Code Quest/Code Quest/CommandHandler.swift",
       "line": 19,
+      "symbol": "CommandHandler.init(level:playerLoc:goalLoc:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/Code Quest/Code Quest/CommandHandler.swift",
+      "line": 48,
+      "symbol": "CommandHandler.moveCmd(input:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/Code Quest/Code Quest/CommandView.swift",
+      "line": 10,
+      "symbol": "num_command_buttons",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/Code Quest/Code Quest/CommandView.swift",
+      "line": 20,
       "symbol": "CommandView.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/osx/Documents/Code Quest/Code Quest/CommandView.swift",
-      "line": 37,
+      "line": 38,
       "symbol": "CommandView.commandTapped(commandButton:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/osx/Documents/Code Quest/Code Quest/Input.swift",
+      "line": 13,
+      "symbol": "ButtonType.LEFT",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/Code Quest/Code Quest/Input.swift",
+      "line": 14,
+      "symbol": "ButtonType.RIGHT",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/Code Quest/Code Quest/Input.swift",
+      "line": 15,
+      "symbol": "ButtonType.UP",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/Code Quest/Code Quest/Input.swift",
+      "line": 16,
+      "symbol": "ButtonType.DOWN",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/Code Quest/Code Quest/Input.swift",
+      "line": 17,
+      "symbol": "ButtonType.ERASE1",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/Code Quest/Code Quest/Input.swift",
       "line": 18,
+      "symbol": "ButtonType.ERASEALL",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/Code Quest/Code Quest/Input.swift",
+      "line": 21,
+      "symbol": "Input",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/Code Quest/Code Quest/Input.swift",
+      "line": 27,
       "symbol": "Input.init(type:frame:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/osx/Documents/Code Quest/Code Quest/Input.swift",
-      "line": 39,
+      "line": 54,
       "symbol": "Input.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/osx/Documents/Code Quest/Code Quest/Level.swift",
-      "line": 21,
-      "symbol": "Level.init(name:data:startingLoc:)",
+      "line": 23,
+      "symbol": "Level.init(name:data:startingLoc:goalLoc:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
@@ -155,22 +246,36 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/osx/Documents/Code Quest/Code Quest/SoundPlayer.swift",
+      "line": 25,
+      "symbol": "playSound(sound:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/osx/Documents/Code Quest/Code Quest/ViewController.swift",
-      "line": 79,
+      "line": 81,
       "symbol": "ViewController.didReceiveMemoryWarning()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
+      "file": "/Users/osx/Documents/Code Quest/Code Quest/ViewController.swift",
+      "line": 94,
+      "symbol": "ViewController.getButtonInput(type:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/osx/Documents/Code Quest/Code Quest/floorCell.swift",
-      "line": 18,
+      "line": 20,
       "symbol": "floorCell.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/osx/Documents/Code Quest/Code Quest/floorCell.swift",
-      "line": 43,
+      "line": 52,
       "symbol": "floorCell.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
