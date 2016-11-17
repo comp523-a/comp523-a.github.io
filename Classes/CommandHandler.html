@@ -14,7 +14,7 @@
     <a title="CommandHandler Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html"> Docs</a> (50% documented)</p>
+        <p><a href="../index.html"> Docs</a> (49% documented)</p>
       </div>
     </header>
     <div class="content-wrapper">
@@ -40,16 +40,31 @@
                 <a href="../Classes/CommandView.html">CommandView</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Classes/GameScene.html">GameScene</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/Input.html">Input</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/Level.html">Level</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Classes/Level/PropertyKey.html">– PropertyKey</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/LevelTableViewCell.html">LevelTableViewCell</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/LevelTableViewController.html">LevelTableViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LevelTutorialViewController.html">LevelTutorialViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Maze.html">Maze</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Maze/Cell.html">– Cell</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/ViewController.html">ViewController</a>
@@ -81,7 +96,19 @@
                 <a href="../Global Variables.html#/s:v10Code_Quest9bumpSoundV10Foundation3URL">bumpSound</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v10Code_Quest10cheerSoundV10Foundation3URL">cheerSound</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v10Code_Quest13commandSoundsGSaV10Foundation3URL_">commandSounds</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Global Variables.html#/s:v10Code_Quest9downSoundV10Foundation3URL">downSound</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v10Code_Quest9failSoundV10Foundation3URL">failSound</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v10Code_Quest10imageNamesGSaSS_">imageNames</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Global Variables.html#/s:v10Code_Quest9leftSoundV10Foundation3URL">leftSound</a>
@@ -165,8 +192,16 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Location of the Player in (x, y)</p>
 
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">playerLoc</span><span class="p">:</span> <span class="p">(</span><span class="kt">Int</span><span class="p">,</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
                       </div>
                     </section>
                   </div>
@@ -184,8 +219,43 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Location of the goal in (x, y)</p>
 
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">goalLoc</span><span class="p">:</span> <span class="p">(</span><span class="kt">Int</span><span class="p">,</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC10Code_Quest14CommandHandler12commandCountSi"></a>
+                    <a name="//apple_ref/swift/Property/commandCount" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC10Code_Quest14CommandHandler12commandCountSi">commandCount</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Number of commands run</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">commandCount</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="mi">0</span></code></pre>
+
+                        </div>
                       </div>
                     </section>
                   </div>
@@ -212,9 +282,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FC10Code_Quest14CommandHandler9handleCmdFT5inputSi_T_"></a>
+                    <a name="/s:FC10Code_Quest14CommandHandler9handleCmdFT5inputSi_TSbSb_"></a>
                     <a name="//apple_ref/swift/Method/handleCmd(input:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FC10Code_Quest14CommandHandler9handleCmdFT5inputSi_T_">handleCmd(input:)</a>
+                    <a class="token" href="#/s:FC10Code_Quest14CommandHandler9handleCmdFT5inputSi_TSbSb_">handleCmd(input:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -222,14 +292,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Handles a single command</p>
+                        <p>Handles a single command. Returns true if the player wins.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">handleCmd</span><span class="p">(</span><span class="nv">input</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">handleCmd</span><span class="p">(</span><span class="nv">input</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">(</span><span class="kt">Bool</span><span class="p">,</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -272,9 +342,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FC10Code_Quest14CommandHandler7moveCmdFT5inputSi_T_"></a>
-                    <a name="//apple_ref/swift/Method/moveCmd(input:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FC10Code_Quest14CommandHandler7moveCmdFT5inputSi_T_">moveCmd(input:)</a>
+                    <a name="/s:FC10Code_Quest14CommandHandler20newCoordsFromCommandFT5inputSi_TSiSi_"></a>
+                    <a name="//apple_ref/swift/Method/newCoordsFromCommand(input:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC10Code_Quest14CommandHandler20newCoordsFromCommandFT5inputSi_TSiSi_">newCoordsFromCommand(input:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -282,8 +352,36 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Given a command, returns the coordinate that command would move the player to.</p>
 
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">newCoordsFromCommand</span><span class="p">(</span><span class="nv">input</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">(</span><span class="kt">Int</span><span class="p">,</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>input</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>integer indicating selected command</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -291,9 +389,56 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FC10Code_Quest14CommandHandler12setPlayerLocFT9newCoordsTSiSi__Sb"></a>
+                    <a name="/s:FC10Code_Quest14CommandHandler7moveCmdFT5inputSi_TSbSb_"></a>
+                    <a name="//apple_ref/swift/Method/moveCmd(input:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC10Code_Quest14CommandHandler7moveCmdFT5inputSi_TSbSb_">moveCmd(input:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Given a command, tries to move the player. Returns a tuple of bools indicating if the player succesfully moved, and if they won on that turn</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">moveCmd</span><span class="p">(</span><span class="nv">input</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">(</span><span class="kt">Bool</span><span class="p">,</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>input</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>integer indicating selected command</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC10Code_Quest14CommandHandler12setPlayerLocFT9newCoordsTSiSi__TSbSb_"></a>
                     <a name="//apple_ref/swift/Method/setPlayerLoc(newCoords:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FC10Code_Quest14CommandHandler12setPlayerLocFT9newCoordsTSiSi__Sb">setPlayerLoc(newCoords:)</a>
+                    <a class="token" href="#/s:FC10Code_Quest14CommandHandler12setPlayerLocFT9newCoordsTSiSi__TSbSb_">setPlayerLoc(newCoords:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -302,7 +447,8 @@
                       <div class="pointer"></div>
                       <div class="abstract">
                         <p>Updates the level tile grid to reflect a new player position, if the player
-is allowed to be there. Returns true if the player successfully moved.</p>
+is allowed to be there. Returns a tuple whose first value is true if the player successfully moved,
+and whose second value is true if the player moved to the goal.</p>
 
 <p>-parameter playerLoc: current player loc
 -parameter newCoords: coordinates to try to move the player to</p>
@@ -312,7 +458,7 @@ is allowed to be there. Returns true if the player successfully moved.</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">setPlayerLoc</span><span class="p">(</span><span class="nv">newCoords</span><span class="p">:</span> <span class="p">(</span><span class="kt">Int</span><span class="p">,</span> <span class="kt">Int</span><span class="p">))</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">setPlayerLoc</span><span class="p">(</span><span class="nv">newCoords</span><span class="p">:</span> <span class="p">(</span><span class="kt">Int</span><span class="p">,</span> <span class="kt">Int</span><span class="p">))</span> <span class="o">-&gt;</span> <span class="p">(</span><span class="kt">Bool</span><span class="p">,</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -351,7 +497,7 @@ is allowed to be there. Returns true if the player successfully moved.</p>
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2016 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2016-10-24)</p>
+          <p>&copy; 2016 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2016-11-17)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.2</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>

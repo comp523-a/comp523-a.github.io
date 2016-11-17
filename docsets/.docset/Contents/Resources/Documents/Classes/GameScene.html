@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>LevelTableViewCell Class Reference</title>
+    <title>GameScene Class Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -10,8 +10,8 @@
     
   </head>
   <body>
-    <a name="//apple_ref/swift/Class/LevelTableViewCell" class="dashAnchor"></a>
-    <a title="LevelTableViewCell Class Reference"></a>
+    <a name="//apple_ref/swift/Class/GameScene" class="dashAnchor"></a>
+    <a title="GameScene Class Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html"> Docs</a> (49% documented)</p>
@@ -21,7 +21,7 @@
       <p id="breadcrumbs">
         <a href="../index.html"> Reference</a>
         <img id="carat" src="../img/carat.png" />
-        LevelTableViewCell Class Reference
+        GameScene Class Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -145,14 +145,14 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>LevelTableViewCell</h1>
+            <h1>GameScene</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight"><code><span class="kd">class</span> <span class="kt">LevelTableViewCell</span><span class="p">:</span> <span class="kt">UITableViewCell</span></code></pre>
+                  <pre class="highlight"><code><span class="kd">class</span> <span class="kt">GameScene</span> <span class="p">:</span> <span class="kt">SKScene</span></code></pre>
 
                 </div>
               </div>
-            <p>Prototype cell for level selector</p>
+            <p>The SpriteKit overlay that handles player movement</p>
 
           </section>
           <section class="section task-group-section">
@@ -161,9 +161,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:vC10Code_Quest18LevelTableViewCell10levelLabelXwGSQCSo7UILabel_"></a>
-                    <a name="//apple_ref/swift/Property/levelLabel" class="dashAnchor"></a>
-                    <a class="token" href="#/s:vC10Code_Quest18LevelTableViewCell10levelLabelXwGSQCSo7UILabel_">levelLabel</a>
+                    <a name="/s:vC10Code_Quest9GameScene6playerCSo12SKSpriteNode"></a>
+                    <a name="//apple_ref/swift/Property/player" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC10Code_Quest9GameScene6playerCSo12SKSpriteNode">player</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -171,14 +171,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>The player sprite</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">LevelTableViewCell</span><span class="p">:</span> <span class="kt">UITableViewCell</span></code></pre>
+                          <pre class="highlight"><code><span class="k">let</span> <span class="nv">player</span> <span class="o">=</span> <span class="kt">SKSpriteNode</span><span class="p">(</span><span class="nv">imageNamed</span><span class="p">:</span> <span class="s">"pt"</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -188,9 +188,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:vC10Code_Quest18LevelTableViewCell14highscoreLabelXwGSQCSo7UILabel_"></a>
-                    <a name="//apple_ref/swift/Property/highscoreLabel" class="dashAnchor"></a>
-                    <a class="token" href="#/s:vC10Code_Quest18LevelTableViewCell14highscoreLabelXwGSQCSo7UILabel_">highscoreLabel</a>
+                    <a name="/s:vC10Code_Quest9GameScene14playerPositionTSiSi_"></a>
+                    <a name="//apple_ref/swift/Property/playerPosition" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC10Code_Quest9GameScene14playerPositionTSiSi_">playerPosition</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -198,14 +198,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>The player position in level coordinates</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">LevelTableViewCell</span><span class="p">:</span> <span class="kt">UITableViewCell</span></code></pre>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">playerPosition</span> <span class="p">:</span> <span class="p">(</span><span class="kt">Int</span><span class="p">,</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">=</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -215,9 +215,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FC10Code_Quest18LevelTableViewCell12awakeFromNibFT_T_"></a>
-                    <a name="//apple_ref/swift/Method/awakeFromNib()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FC10Code_Quest18LevelTableViewCell12awakeFromNibFT_T_">awakeFromNib()</a>
+                    <a name="/s:FC10Code_Quest9GameScene7didMoveFT2toCSo6SKView_T_"></a>
+                    <a name="//apple_ref/swift/Method/didMove(to:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC10Code_Quest9GameScene7didMoveFT2toCSo6SKView_T_">didMove(to:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -232,7 +232,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">LevelTableViewCell</span><span class="p">:</span> <span class="kt">UITableViewCell</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">GameScene</span> <span class="p">:</span> <span class="kt">SKScene</span></code></pre>
 
                         </div>
                       </div>
@@ -242,9 +242,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FC10Code_Quest18LevelTableViewCell11setSelectedFTSb8animatedSb_T_"></a>
-                    <a name="//apple_ref/swift/Method/setSelected(_:animated:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FC10Code_Quest18LevelTableViewCell11setSelectedFTSb8animatedSb_T_">setSelected(_:animated:)</a>
+                    <a name="/s:FC10Code_Quest9GameScene20getPlayerCoordinatesFT_VSC7CGPoint"></a>
+                    <a name="//apple_ref/swift/Method/getPlayerCoordinates()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC10Code_Quest9GameScene20getPlayerCoordinatesFT_VSC7CGPoint">getPlayerCoordinates()</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -252,14 +252,122 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Returns the player&rsquo;s screen coordinates based on their level coordinates</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">LevelTableViewCell</span><span class="p">:</span> <span class="kt">UITableViewCell</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">getPlayerCoordinates</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">CGPoint</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC10Code_Quest9GameScene22mapToScreenCoordinatesFT6newPosTSiSi__VSC7CGPoint"></a>
+                    <a name="//apple_ref/swift/Method/mapToScreenCoordinates(newPos:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC10Code_Quest9GameScene22mapToScreenCoordinatesFT6newPosTSiSi__VSC7CGPoint">mapToScreenCoordinates(newPos:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Maps level coordinates to screen coordinates</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">mapToScreenCoordinates</span><span class="p">(</span><span class="nv">newPos</span> <span class="p">:</span> <span class="p">(</span><span class="kt">Int</span><span class="p">,</span> <span class="kt">Int</span><span class="p">))</span> <span class="o">-&gt;</span> <span class="kt">CGPoint</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC10Code_Quest9GameScene10movePlayerFT6newPosTSiSi__T_"></a>
+                    <a name="//apple_ref/swift/Method/movePlayer(newPos:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC10Code_Quest9GameScene10movePlayerFT6newPosTSiSi__T_">movePlayer(newPos:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Updates the player&rsquo;s location in level coordinates</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">movePlayer</span><span class="p">(</span><span class="nv">newPos</span> <span class="p">:</span> <span class="p">(</span><span class="kt">Int</span><span class="p">,</span> <span class="kt">Int</span><span class="p">))</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC10Code_Quest9GameScene12setPlayerPosFT6newPosTSiSi__T_"></a>
+                    <a name="//apple_ref/swift/Method/setPlayerPos(newPos:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC10Code_Quest9GameScene12setPlayerPosFT6newPosTSiSi__T_">setPlayerPos(newPos:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Updates the player&rsquo;s level coordinates without animating</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">setPlayerPos</span><span class="p">(</span><span class="nv">newPos</span><span class="p">:</span> <span class="p">(</span><span class="kt">Int</span><span class="p">,</span> <span class="kt">Int</span><span class="p">))</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC10Code_Quest9GameScene11tryToMoveToFT6newPosTSiSi__T_"></a>
+                    <a name="//apple_ref/swift/Method/tryToMoveTo(newPos:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC10Code_Quest9GameScene11tryToMoveToFT6newPosTSiSi__T_">tryToMoveTo(newPos:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Moves the player towards the specified level coordinates, playing the bonk animation instead.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">tryToMoveTo</span><span class="p">(</span><span class="nv">newPos</span><span class="p">:</span> <span class="p">(</span><span class="kt">Int</span><span class="p">,</span> <span class="kt">Int</span><span class="p">))</span></code></pre>
 
                         </div>
                       </div>
