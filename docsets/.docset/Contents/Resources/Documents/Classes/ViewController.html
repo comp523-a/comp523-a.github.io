@@ -14,7 +14,7 @@
     <a title="ViewController Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html"> Docs</a> (49% documented)</p>
+        <p><a href="../index.html"> Docs</a> (44% documented)</p>
       </div>
     </header>
     <div class="content-wrapper">
@@ -82,6 +82,9 @@
                 <a href="../Classes/playerCell.html">playerCell</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Classes/settingsTableViewController.html">settingsTableViewController</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/wallCell.html">wallCell</a>
               </li>
             </ul>
@@ -91,6 +94,9 @@
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
                 <a href="../Global Variables.html#/s:v10Code_Quest11audioPlayerCSo13AVAudioPlayer">audioPlayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v10Code_Quest10blastSoundV10Foundation3URL">blastSound</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Global Variables.html#/s:v10Code_Quest9bumpSoundV10Foundation3URL">bumpSound</a>
@@ -114,7 +120,13 @@
                 <a href="../Global Variables.html#/s:v10Code_Quest9leftSoundV10Foundation3URL">leftSound</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v10Code_Quest11musicVolumeSf">musicVolume</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Global Variables.html#/s:v10Code_Quest19num_command_buttonsSi">num_command_buttons</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v10Code_Quest17num_queue_buttonsSi">num_queue_buttons</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Global Variables.html#/s:v10Code_Quest10rightSoundV10Foundation3URL">rightSound</a>
@@ -286,7 +298,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">tileArray</span> <span class="p">:</span> <span class="p">[[</span><span class="n"><a href="../Classes/gameCell.html">gameCell</a></span><span class="p">]]</span> <span class="o">=</span> <span class="p">[[]]</span></code></pre>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">tileArray</span> <span class="p">:</span> <span class="p">[[</span><span class="n"><a href="../Classes/gameCell.html">gameCell</a></span><span class="p">]]</span> <span class="o">=</span> <span class="p">[]</span></code></pre>
 
                         </div>
                       </div>
@@ -512,6 +524,195 @@
                 <li class="item">
                   <div>
                     <code>
+                    <a name="/s:vC10Code_Quest14ViewController11breakBlocksGSaCS_9floorCell_"></a>
+                    <a name="//apple_ref/swift/Property/breakBlocks" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC10Code_Quest14ViewController11breakBlocksGSaCS_9floorCell_">breakBlocks</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>List of breakable blocks that must be reset along with the level</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">breakBlocks</span> <span class="p">:</span> <span class="p">[</span><span class="n"><a href="../Classes/floorCell.html">floorCell</a></span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC10Code_Quest14ViewController9fuelCellsGSaCS_9floorCell_"></a>
+                    <a name="//apple_ref/swift/Property/fuelCells" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC10Code_Quest14ViewController9fuelCellsGSaCS_9floorCell_">fuelCells</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>List of fuel cells in the level</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">fuelCells</span> <span class="p">:</span> <span class="p">[</span><span class="n"><a href="../Classes/floorCell.html">floorCell</a></span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvC10Code_Quest14ViewController7moveIncSi"></a>
+                    <a name="//apple_ref/swift/Variable/moveInc" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvC10Code_Quest14ViewController7moveIncSi">moveInc</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Number of pixels character should move/size of cells</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">moveInc</span> <span class="o">=</span> <span class="mi">90</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvC10Code_Quest14ViewController5origWV12CoreGraphics7CGFloat"></a>
+                    <a name="//apple_ref/swift/Variable/origW" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvC10Code_Quest14ViewController5origWV12CoreGraphics7CGFloat">origW</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Original width used</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">origW</span> <span class="o">=</span> <span class="kt">CGFloat</span><span class="p">(</span><span class="mi">1024</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvC10Code_Quest14ViewController5origHV12CoreGraphics7CGFloat"></a>
+                    <a name="//apple_ref/swift/Variable/origH" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvC10Code_Quest14ViewController5origHV12CoreGraphics7CGFloat">origH</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Original height used</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">origH</span> <span class="o">=</span> <span class="kt">CGFloat</span><span class="p">(</span><span class="mi">768</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC10Code_Quest14ViewController6onShipSb"></a>
+                    <a name="//apple_ref/swift/Property/onShip" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC10Code_Quest14ViewController6onShipSb">onShip</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Boolean tracks whether the player is currently on the goal</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">onShip</span> <span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC10Code_Quest14ViewController10aboutToWinSb"></a>
+                    <a name="//apple_ref/swift/Property/aboutToWin" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC10Code_Quest14ViewController10aboutToWinSb">aboutToWin</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">ViewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="kt">UICollectionViewDelegate</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
                     <a name="/s:vC10Code_Quest14ViewController5musicV10Foundation3URL"></a>
                     <a name="//apple_ref/swift/Property/music" class="dashAnchor"></a>
                     <a class="token" href="#/s:vC10Code_Quest14ViewController5musicV10Foundation3URL">music</a>
@@ -671,6 +872,60 @@
                     </section>
                   </div>
                 </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC10Code_Quest14ViewController8tapResetFCSo22UITapGestureRecognizerT_"></a>
+                    <a name="//apple_ref/swift/Method/tapReset(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC10Code_Quest14ViewController8tapResetFCSo22UITapGestureRecognizerT_">tapReset(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">ViewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="kt">UICollectionViewDelegate</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC10Code_Quest14ViewController15resetLevelStateFT_T_"></a>
+                    <a name="//apple_ref/swift/Method/resetLevelState()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC10Code_Quest14ViewController15resetLevelStateFT_T_">resetLevelState()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">ViewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="kt">UICollectionViewDelegate</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
               </ul>
             </div>
             <div class="task-group">
@@ -766,6 +1021,60 @@
                 <li class="item">
                   <div>
                     <code>
+                    <a name="/s:FC10Code_Quest14ViewController3winFT_T_"></a>
+                    <a name="//apple_ref/swift/Method/win()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC10Code_Quest14ViewController3winFT_T_">win()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">ViewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="kt">UICollectionViewDelegate</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC10Code_Quest14ViewController8checkWinFT_Sb"></a>
+                    <a name="//apple_ref/swift/Method/checkWin()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC10Code_Quest14ViewController8checkWinFT_Sb">checkWin()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">ViewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="kt">UICollectionViewDelegate</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
                     <a name="/s:FC10Code_Quest14ViewController17viewWillDisappearFSbT_"></a>
                     <a name="//apple_ref/swift/Method/viewWillDisappear(_:)" class="dashAnchor"></a>
                     <a class="token" href="#/s:FC10Code_Quest14ViewController17viewWillDisappearFSbT_">viewWillDisappear(_:)</a>
@@ -817,12 +1126,39 @@
                     </section>
                   </div>
                 </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZFC10Code_Quest14ViewController9scaleDimsFT5inputSi1xSb_Si"></a>
+                    <a name="//apple_ref/swift/Method/scaleDims(input:x:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZFC10Code_Quest14ViewController9scaleDimsFT5inputSi1xSb_Si">scaleDims(input:x:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Scales pixel values to be relative to the resolution of the device</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">scaleDims</span><span class="p">(</span><span class="nv">input</span> <span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="nv">x</span> <span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
               </ul>
             </div>
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2016 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2016-11-17)</p>
+          <p>&copy; 2016 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2016-12-12)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.2</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>

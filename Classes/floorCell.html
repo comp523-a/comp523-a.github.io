@@ -14,7 +14,7 @@
     <a title="floorCell Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html"> Docs</a> (49% documented)</p>
+        <p><a href="../index.html"> Docs</a> (44% documented)</p>
       </div>
     </header>
     <div class="content-wrapper">
@@ -82,6 +82,9 @@
                 <a href="../Classes/playerCell.html">playerCell</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Classes/settingsTableViewController.html">settingsTableViewController</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/wallCell.html">wallCell</a>
               </li>
             </ul>
@@ -91,6 +94,9 @@
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
                 <a href="../Global Variables.html#/s:v10Code_Quest11audioPlayerCSo13AVAudioPlayer">audioPlayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v10Code_Quest10blastSoundV10Foundation3URL">blastSound</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Global Variables.html#/s:v10Code_Quest9bumpSoundV10Foundation3URL">bumpSound</a>
@@ -114,7 +120,13 @@
                 <a href="../Global Variables.html#/s:v10Code_Quest9leftSoundV10Foundation3URL">leftSound</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v10Code_Quest11musicVolumeSf">musicVolume</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Global Variables.html#/s:v10Code_Quest19num_command_buttonsSi">num_command_buttons</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v10Code_Quest17num_queue_buttonsSi">num_queue_buttons</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Global Variables.html#/s:v10Code_Quest10rightSoundV10Foundation3URL">rightSound</a>
@@ -215,9 +227,90 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FC10Code_Quest9floorCellcFT_S0_"></a>
-                    <a name="//apple_ref/swift/Method/init()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FC10Code_Quest9floorCellcFT_S0_">init()</a>
+                    <a name="/s:vC10Code_Quest9floorCell6isWallSb"></a>
+                    <a name="//apple_ref/swift/Property/isWall" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC10Code_Quest9floorCell6isWallSb">isWall</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Indicates whether or not the cell is a breakable wall</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">isWall</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC10Code_Quest9floorCell6isFuelSb"></a>
+                    <a name="//apple_ref/swift/Property/isFuel" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC10Code_Quest9floorCell6isFuelSb">isFuel</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Indicated whether or not the cell is fuel</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">isFuel</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC10Code_Quest9floorCell7wasGoalSb"></a>
+                    <a name="//apple_ref/swift/Property/wasGoal" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC10Code_Quest9floorCell7wasGoalSb">wasGoal</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="nv">floorCell</span><span class="p">:</span> <span class="n"><a href="../Classes/gameCell.html">gameCell</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC10Code_Quest9floorCellcFT6isWallSb6isFuelSb_S0_"></a>
+                    <a name="//apple_ref/swift/Method/init(isWall:isFuel:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC10Code_Quest9floorCellcFT6isWallSb6isFuelSb_S0_">init(isWall:isFuel:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -323,6 +416,87 @@
                 <li class="item">
                   <div>
                     <code>
+                    <a name="/s:FC10Code_Quest9floorCell11makeNotWallFT_T_"></a>
+                    <a name="//apple_ref/swift/Method/makeNotWall()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC10Code_Quest9floorCell11makeNotWallFT_T_">makeNotWall()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="nv">floorCell</span><span class="p">:</span> <span class="n"><a href="../Classes/gameCell.html">gameCell</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC10Code_Quest9floorCell8makeWallFT_T_"></a>
+                    <a name="//apple_ref/swift/Method/makeWall()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC10Code_Quest9floorCell8makeWallFT_T_">makeWall()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="nv">floorCell</span><span class="p">:</span> <span class="n"><a href="../Classes/gameCell.html">gameCell</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC10Code_Quest9floorCell8makeFuelFT_T_"></a>
+                    <a name="//apple_ref/swift/Method/makeFuel()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC10Code_Quest9floorCell8makeFuelFT_T_">makeFuel()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="nv">floorCell</span><span class="p">:</span> <span class="n"><a href="../Classes/gameCell.html">gameCell</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
                     <a name="/s:FC10Code_Quest9floorCellcFT5coderCSo7NSCoder_GSqS0__"></a>
                     <a name="//apple_ref/swift/Method/init(coder:)" class="dashAnchor"></a>
                     <a class="token" href="#/s:FC10Code_Quest9floorCellcFT5coderCSo7NSCoder_GSqS0__">init(coder:)</a>
@@ -352,7 +526,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2016 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2016-11-17)</p>
+          <p>&copy; 2016 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2016-12-12)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.2</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>

@@ -1,579 +1,803 @@
 {
   "warnings": [
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/AppDelegate.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/AppDelegate.swift",
       "line": 12,
       "symbol": "AppDelegate",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/AppDelegate.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/AppDelegate.swift",
       "line": 14,
       "symbol": "AppDelegate.window",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/AppDelegate.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/AppDelegate.swift",
       "line": 17,
       "symbol": "AppDelegate.application(_:didFinishLaunchingWithOptions:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/AppDelegate.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/AppDelegate.swift",
       "line": 22,
       "symbol": "AppDelegate.applicationWillResignActive(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/AppDelegate.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/AppDelegate.swift",
       "line": 27,
       "symbol": "AppDelegate.applicationDidEnterBackground(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/AppDelegate.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/AppDelegate.swift",
       "line": 32,
       "symbol": "AppDelegate.applicationWillEnterForeground(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/AppDelegate.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/AppDelegate.swift",
       "line": 36,
       "symbol": "AppDelegate.applicationDidBecomeActive(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/AppDelegate.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/AppDelegate.swift",
       "line": 40,
       "symbol": "AppDelegate.applicationWillTerminate(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/CommandHandler.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/CommandHandler.swift",
       "line": 13,
       "symbol": "CommandHandler",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/CommandHandler.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/CommandHandler.swift",
+      "line": 23,
+      "symbol": "CommandHandler.myGameScene",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/CommandHandler.swift",
       "line": 24,
-      "symbol": "CommandHandler.init(level:playerLoc:goalLoc:)",
+      "symbol": "CommandHandler.onGoal",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/CommandHandler.swift",
+      "line": 26,
+      "symbol": "CommandHandler.init(level:playerLoc:goalLoc:myGameScene:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/CommandView.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/CommandView.swift",
       "line": 10,
       "symbol": "num_command_buttons",
       "symbol_kind": "source.lang.swift.decl.var.global",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/CommandView.swift",
-      "line": 20,
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/CommandView.swift",
+      "line": 13,
+      "symbol": "num_queue_buttons",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/CommandView.swift",
+      "line": 23,
       "symbol": "CommandView.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/CommandView.swift",
-      "line": 38,
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/CommandView.swift",
+      "line": 43,
       "symbol": "CommandView.commandTapped(commandButton:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/GameScene.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/GameScene.swift",
+      "line": 18,
+      "symbol": "GameScene.boomFrames",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/GameScene.swift",
+      "line": 19,
+      "symbol": "GameScene.pewFrames",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/GameScene.swift",
       "line": 20,
+      "symbol": "GameScene.boomSound",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/GameScene.swift",
+      "line": 21,
+      "symbol": "GameScene.pewSound",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/GameScene.swift",
+      "line": 23,
       "symbol": "GameScene.didMove(to:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/Input.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/GameScene.swift",
+      "line": 104,
+      "symbol": "GameScene.kaboom(pos:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/GameScene.swift",
+      "line": 125,
+      "symbol": "GameScene.pewpew(pos:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/Input.swift",
       "line": 13,
       "symbol": "ButtonType.LEFT",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/Input.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/Input.swift",
       "line": 14,
       "symbol": "ButtonType.RIGHT",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/Input.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/Input.swift",
       "line": 15,
       "symbol": "ButtonType.UP",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/Input.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/Input.swift",
       "line": 16,
       "symbol": "ButtonType.DOWN",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/Input.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/Input.swift",
       "line": 17,
+      "symbol": "ButtonType.BLAST",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/Input.swift",
+      "line": 18,
       "symbol": "ButtonType.ERASE1",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/Input.swift",
-      "line": 18,
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/Input.swift",
+      "line": 19,
       "symbol": "ButtonType.ERASEALL",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/Input.swift",
-      "line": 19,
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/Input.swift",
+      "line": 20,
       "symbol": "ButtonType.QUEUESOUND",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/Input.swift",
-      "line": 22,
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/Input.swift",
+      "line": 23,
       "symbol": "Input",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/Input.swift",
-      "line": 28,
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/Input.swift",
+      "line": 29,
       "symbol": "Input.init(type:frame:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/Input.swift",
-      "line": 58,
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/Input.swift",
+      "line": 62,
       "symbol": "Input.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/Level.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/Level.swift",
       "line": 32,
       "symbol": "Level.DocumentsDirectory",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/Level.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/Level.swift",
       "line": 33,
       "symbol": "Level.ArchiveURL",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/Level.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/Level.swift",
       "line": 37,
       "symbol": "Level.PropertyKey",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/Level.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/Level.swift",
       "line": 38,
       "symbol": "Level.PropertyKey.nameKey",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/Level.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/Level.swift",
       "line": 39,
       "symbol": "Level.PropertyKey.dataKey",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/Level.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/Level.swift",
       "line": 40,
       "symbol": "Level.PropertyKey.startingLocXKey",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/Level.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/Level.swift",
       "line": 41,
       "symbol": "Level.PropertyKey.startingLocYKey",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/Level.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/Level.swift",
       "line": 42,
       "symbol": "Level.PropertyKey.goalLocXKey",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/Level.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/Level.swift",
       "line": 43,
       "symbol": "Level.PropertyKey.goalLocYKey",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/Level.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/Level.swift",
       "line": 44,
       "symbol": "Level.PropertyKey.tutorialTextKey",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/Level.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/Level.swift",
       "line": 45,
       "symbol": "Level.PropertyKey.backgroundKey",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/Level.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/Level.swift",
       "line": 46,
       "symbol": "Level.PropertyKey.clearedKey",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/Level.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/Level.swift",
       "line": 47,
       "symbol": "Level.PropertyKey.highscoreKey",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/Level.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/Level.swift",
       "line": 50,
       "symbol": "Level.init(name:data:startingLoc:goalLoc:tutorial:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/Level.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/Level.swift",
       "line": 60,
       "symbol": "Level.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/Level.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/Level.swift",
       "line": 88,
       "symbol": "Level.encode(with:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/LevelTableViewCell.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/LevelTableViewCell.swift",
       "line": 15,
       "symbol": "LevelTableViewCell.levelLabel",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/LevelTableViewCell.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/LevelTableViewCell.swift",
       "line": 16,
       "symbol": "LevelTableViewCell.highscoreLabel",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/LevelTableViewCell.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/LevelTableViewCell.swift",
       "line": 19,
       "symbol": "LevelTableViewCell.awakeFromNib()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/LevelTableViewCell.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/LevelTableViewCell.swift",
       "line": 24,
       "symbol": "LevelTableViewCell.setSelected(_:animated:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/LevelTableViewController.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/LevelTableViewController.swift",
+      "line": 16,
+      "symbol": "LevelTableViewController.defaults",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/LevelTableViewController.swift",
       "line": 18,
       "symbol": "LevelTableViewController.viewDidLoad()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/LevelTableViewController.swift",
-      "line": 118,
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/LevelTableViewController.swift",
+      "line": 114,
       "symbol": "LevelTableViewController.didReceiveMemoryWarning()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/LevelTableViewController.swift",
-      "line": 125,
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/LevelTableViewController.swift",
+      "line": 121,
       "symbol": "LevelTableViewController.numberOfSections(in:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/LevelTableViewController.swift",
-      "line": 129,
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/LevelTableViewController.swift",
+      "line": 125,
       "symbol": "LevelTableViewController.tableView(_:numberOfRowsInSection:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/LevelTableViewController.swift",
-      "line": 134,
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/LevelTableViewController.swift",
+      "line": 130,
       "symbol": "LevelTableViewController.tableView(_:cellForRowAt:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/LevelTableViewController.swift",
-      "line": 178,
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/LevelTableViewController.swift",
+      "line": 189,
       "symbol": "LevelTableViewController.AddButton(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/LevelTableViewController.swift",
-      "line": 225,
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/LevelTableViewController.swift",
+      "line": 202,
+      "symbol": "LevelTableViewController.newMaze()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/LevelTableViewController.swift",
+      "line": 249,
       "symbol": "LevelTableViewController.prepare(for:sender:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/LevelTutorialViewController.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/LevelTutorialViewController.swift",
       "line": 34,
       "symbol": "LevelTutorialViewController.viewDidLoad()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/LevelTutorialViewController.swift",
-      "line": 58,
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/LevelTutorialViewController.swift",
+      "line": 59,
       "symbol": "LevelTutorialViewController.start()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/LevelTutorialViewController.swift",
-      "line": 63,
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/LevelTutorialViewController.swift",
+      "line": 64,
       "symbol": "LevelTutorialViewController.didReceiveMemoryWarning()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/SoundPlayer.swift",
-      "line": 29,
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/SoundPlayer.swift",
+      "line": 12,
+      "symbol": "musicVolume",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/SoundPlayer.swift",
+      "line": 33,
       "symbol": "playSound(sound:)",
       "symbol_kind": "source.lang.swift.decl.function.free",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/ViewController.swift",
-      "line": 13,
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/ViewController.swift",
+      "line": 14,
       "symbol": "imageNames",
       "symbol_kind": "source.lang.swift.decl.var.global",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/ViewController.swift",
-      "line": 14,
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/ViewController.swift",
+      "line": 15,
       "symbol": "commandSounds",
       "symbol_kind": "source.lang.swift.decl.var.global",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/ViewController.swift",
-      "line": 48,
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/ViewController.swift",
+      "line": 60,
+      "symbol": "ViewController.aboutToWin",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/ViewController.swift",
+      "line": 62,
       "symbol": "ViewController.music",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/ViewController.swift",
-      "line": 49,
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/ViewController.swift",
+      "line": 63,
       "symbol": "ViewController.musicPlayer",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/ViewController.swift",
-      "line": 50,
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/ViewController.swift",
+      "line": 64,
       "symbol": "ViewController.drum",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/ViewController.swift",
-      "line": 51,
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/ViewController.swift",
+      "line": 65,
       "symbol": "ViewController.drumPlayer",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/ViewController.swift",
-      "line": 139,
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/ViewController.swift",
+      "line": 166,
       "symbol": "ViewController.didReceiveMemoryWarning()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/ViewController.swift",
-      "line": 152,
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/ViewController.swift",
+      "line": 171,
+      "symbol": "ViewController.tapReset(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/ViewController.swift",
+      "line": 177,
+      "symbol": "ViewController.resetLevelState()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/ViewController.swift",
+      "line": 198,
       "symbol": "ViewController.getButtonInput(type:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/ViewController.swift",
-      "line": 262,
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/ViewController.swift",
+      "line": 330,
+      "symbol": "ViewController.win()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/ViewController.swift",
+      "line": 334,
+      "symbol": "ViewController.checkWin()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/ViewController.swift",
+      "line": 345,
       "symbol": "ViewController.viewWillDisappear(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/ViewController.swift",
-      "line": 271,
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/ViewController.swift",
+      "line": 354,
       "symbol": "ViewController.runQueueSounds()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/floorCell.swift",
-      "line": 20,
-      "symbol": "floorCell.init()",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/floorCell.swift",
+      "line": 23,
+      "symbol": "floorCell.wasGoal",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/floorCell.swift",
+      "line": 25,
+      "symbol": "floorCell.init(isWall:isFuel:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/floorCell.swift",
-      "line": 52,
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/floorCell.swift",
+      "line": 70,
+      "symbol": "floorCell.makeNotWall()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/floorCell.swift",
+      "line": 76,
+      "symbol": "floorCell.makeWall()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/floorCell.swift",
+      "line": 82,
+      "symbol": "floorCell.makeFuel()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/floorCell.swift",
+      "line": 88,
       "symbol": "floorCell.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/gameCell.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/gameCell.swift",
       "line": 22,
       "symbol": "gameCell.init(image:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/gameCell.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/gameCell.swift",
       "line": 29,
       "symbol": "gameCell.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/goalCell.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/goalCell.swift",
       "line": 14,
       "symbol": "goalCell.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/goalCell.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/goalCell.swift",
       "line": 19,
       "symbol": "goalCell.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/playerCell.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/playerCell.swift",
       "line": 11,
       "symbol": "playerCell",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/playerCell.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/playerCell.swift",
       "line": 13,
       "symbol": "playerCell.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/playerCell.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/playerCell.swift",
       "line": 18,
       "symbol": "playerCell.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/wallCell.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/settingsTableViewController.swift",
+      "line": 11,
+      "symbol": "settingsTableViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/settingsTableViewController.swift",
+      "line": 13,
+      "symbol": "settingsTableViewController.parentTableView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/settingsTableViewController.swift",
+      "line": 14,
+      "symbol": "settingsTableViewController.defaults",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/settingsTableViewController.swift",
+      "line": 16,
+      "symbol": "settingsTableViewController.musicUISlider",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/settingsTableViewController.swift",
+      "line": 17,
+      "symbol": "settingsTableViewController.musicSliderChanged(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/settingsTableViewController.swift",
+      "line": 24,
+      "symbol": "settingsTableViewController.AddCustomLevel(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/settingsTableViewController.swift",
+      "line": 28,
+      "symbol": "settingsTableViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/settingsTableViewController.swift",
+      "line": 39,
+      "symbol": "settingsTableViewController.didReceiveMemoryWarning()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/settingsTableViewController.swift",
+      "line": 46,
+      "symbol": "settingsTableViewController.numberOfSections(in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/settingsTableViewController.swift",
+      "line": 50,
+      "symbol": "settingsTableViewController.tableView(_:numberOfRowsInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/wallCell.swift",
       "line": 14,
       "symbol": "wallCell.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Code Quest/wallCell.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Code Quest/wallCell.swift",
       "line": 19,
       "symbol": "wallCell.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Maze.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Maze.swift",
       "line": 33,
       "symbol": "Maze.Cell",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Maze.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Maze.swift",
       "line": 34,
       "symbol": "Maze.Cell.Space",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Maze.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Maze.swift",
       "line": 34,
       "symbol": "Maze.Cell.Wall",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Maze.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Maze.swift",
       "line": 37,
       "symbol": "Maze.data",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Maze.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Maze.swift",
       "line": 40,
       "symbol": "Maze.init(width:height:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/osx/Documents/Code Quest/Maze.swift",
+      "file": "/Users/osx/Documents/comp523-a2/Maze.swift",
       "line": 59,
       "symbol": "Maze.carve(x:y:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     }
   ],
-  "source_directory": "/Users/osx/Documents/Code Quest"
+  "source_directory": "/Users/osx/Documents/comp523-a2"
 }
